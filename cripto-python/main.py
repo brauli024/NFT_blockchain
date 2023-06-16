@@ -46,6 +46,16 @@ algod_client = create_client()
 accts = []
 num_accts = 2
 
+# Construir el diccionario de metadata
+metadata = {
+    "name": "My Artwork",
+    "description": "A beautiful artwork created by me",
+    "image": "https://drive.google.com/file/d/1zVCb4mK7JugKOGQjOTz5cphbHgPeup7E/view?usp=drive_link",
+    "creator": "John Doe",
+    "year": 2022
+}
+
+
 action = 1
 
 while action == 1:
